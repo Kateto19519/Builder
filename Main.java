@@ -47,9 +47,7 @@ class WebPageDirector {
 
     void createForm(String title, String fields) {
         builder.setTitle(title);
-        builder.setHeader("Form Header");
         builder.setContent("Form Fields: " + fields);
-        builder.setFooter("Form Footer");
     }
 }
 
